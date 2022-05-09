@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+	background-color: grey;
+	width: 100vw;
+	height: 100vh;
+    overflow: hidden;
+}
+.main{
+    background-color: darkcyan;
+    height: 90px;
+}
+a{
+	background-color: rgba(100%,10%,100%,0.3);
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 90px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid ghostwhite;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+a:hover{
+	cursor: pointer;
+	background-color: green;
+}
+img{
+	display: block;
+    width: 6%;
+    border: 2px solid grey;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 50px;
+}
+.table{
+    background-color: aliceblue;
+    padding: 20px 30px;
+    width: 100%;
+}
+.table table{
+    border: 2px solid  saddlebrown;
+     width: 100%;
+}
+.table table tr{
+    color: tomato;
+}
+.table table td{
+    color: black;
+    padding: 6px 0px;
+}
+.table table th{
+    font-size: 22px;
+    background-color: antiquewhite;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.table table ol li{
+    text-align: center;
+    list-style: none;
+    background-color: whitesmoke;
+}
+.first{
+    color: brown;
+}
+.second{
+    color: blue;
+}
+.third{
+    color: fuchsia;
+}
+.form{
+    text-align: center;
+    font-family: serif;
+}
+.form input{
+    padding: 6px 8px;
+    margin-left: 15px;
+    border: 3px solid darkgrey;
+    border-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form button{
+    margin-left: -6px;
+    padding: 6px 8px;
+    border: 3px solid darkgrey;
+    border-radius: 10px;
+    background-color: rgba(100%,10%,100%,0.3);
+    color: white;
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.5s ease-in;
+}
+.form button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.footer footer{ 
+    color: floralwhite;
+    background-color: brown;
+    margin: 25px 30px;
+    padding: 8px;
+    font-size: 18px;
+}
+.footer strong{
+    margin-left: 200px;
+}
